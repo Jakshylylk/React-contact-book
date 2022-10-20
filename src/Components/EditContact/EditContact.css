@@ -1,0 +1,56 @@
+.modal {
+  width: 100%;
+  height: 100%;
+  background: rgba(14, 14, 14, 0.678);
+  position: absolute;
+  z-index: 1;
+}
+.main-Container {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  background-color: grey;
+}
+.main-Container h1 {
+  text-align: center;
+  color: white;
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: black;
+  border: 2px solid red;
+}
+.main-Container input {
+  width: 450px;
+  height: 30px;
+  margin: 15px auto;
+  border: 2px solid red;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+.main-Container input:focus {
+  border: 3px solid blue;
+  background-color: white;
+  color: black;
+}
+.main-Container span {
+  margin: 30px auto;
+}
+.main-Container button {
+  width: 100px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 90px;
+  border: 2px solid red;
+  font-weight: bold;
+}
+.main-Container button:hover {
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+}

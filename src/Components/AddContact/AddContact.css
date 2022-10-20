@@ -1,0 +1,51 @@
+.mainContainer {
+  width: 600px;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  background-color: grey;
+}
+.mainContainer h1 {
+  text-align: center;
+  color: white;
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: black;
+  border: 2px solid red;
+}
+
+.mainContainer input {
+  width: 450px;
+  height: 30px;
+  margin: 15px auto;
+  border: 2px solid red;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+.mainContainer input:focus {
+  border: 3px solid blue;
+  background-color: white;
+  color: black;
+}
+.mainContainer span {
+  width: 250px;
+  margin: 30px auto;
+}
+.mainContainer button {
+  width: 100px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 90px;
+  border: 2px solid red;
+  font-weight: bold;
+}
+.mainContainer button:hover {
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+}

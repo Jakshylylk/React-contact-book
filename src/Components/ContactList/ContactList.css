@@ -1,0 +1,32 @@
+ul {
+  width: 450px;
+  border: 5px solid red;
+  list-style: none;
+  margin: 15px;
+  padding-inline-start: 0;
+  background-color: black;
+}
+ul li {
+  text-align: center;
+  margin: 15px;
+  color: white;
+  font-size: 25px;
+}
+ul li button {
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  color: black;
+  border: 2px solid red;
+  font-weight: bold;
+}
+ul li button:hover {
+  background: blue;
+  color: white;
+  border: 2px solid blue;
+  font-weight: bold;
+}
+img {
+  width: 400px;
+  margin: 0 auto;
+}
